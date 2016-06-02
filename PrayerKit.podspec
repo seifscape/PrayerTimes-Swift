@@ -40,8 +40,8 @@ s.source = { :git => "git@github.com:seifscape/PrayerTimes-Swift.git", :tag => {
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "PrayerTimes-Swift/**/*.{swift}"
+s.source_files = "PrayerKit/**/*.{swift}"
 
 # 9
-s.resources = "PrayerTimes-Swift/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "PrayerKit/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
