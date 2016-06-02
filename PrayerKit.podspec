@@ -11,7 +11,7 @@ s.requires_arc = true
 s.version = "0.1.0"
 
 # 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = 'MIT'
 
 # 4 - Replace with your name and e-mail address
 s.author = { "Seif Kobrosly" => "seifkobrosly@gmail.com" }
@@ -24,11 +24,11 @@ s.author = { "Seif Kobrosly" => "seifkobrosly@gmail.com" }
 #s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
 
 # For example,
-# s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+ s.homepage = "https://github.com/seifscape/PrayerTimes-Swift"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "git@github.com:seifscape/PrayerTimes-Swift.git", :tag => {s.version}
+s.source = { :git => "git@github.com:seifscape/PrayerTimes-Swift.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
