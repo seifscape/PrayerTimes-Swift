@@ -40,12 +40,12 @@ class MasterViewController: UITableViewController {
         prayerKit.outputFormat = .Time12
         var times = prayerKit.getPrayerTimes()
         if let t = times {
-            let sortedTimes = sorted(times!){a,b in a.0.rawValue < b.0.rawValue}
+            let sortedTimes = (times!).sort{a,b in a.0.rawValue < b.0.rawValue}
             todayTimes = sortedTimes
             tableView.reloadData()
             for (pName, time) in sortedTimes {
                 let paddedName:String = (pName.toString() as NSString).stringByPaddingToLength(15, withString: " ", startingAtIndex: 0)
-                println(paddedName  + " : \(time)")
+                print(paddedName  + " : \(time)")
             }
         }
     }
@@ -86,9 +86,9 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) 
 
-        let (timeName, time: AnyObject) = todayTimes[indexPath.row]
+        let (timeName, time) = todayTimes[indexPath.row]
         cell.textLabel!.text = timeName.toString()
         cell.detailTextLabel!.text = time as? String
         return cell

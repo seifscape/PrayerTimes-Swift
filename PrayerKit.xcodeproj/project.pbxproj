@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283432C91CFFDFFE005A6E3C /* .Podspec in Resources */ = {isa = PBXBuildFile; fileRef = 283432C81CFFDFFE005A6E3C /* .Podspec */; };
 		3B69634C1ADD8C0B00D036E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B69634B1ADD8C0B00D036E8 /* AppDelegate.swift */; };
 		3B69634E1ADD8C0B00D036E8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B69634D1ADD8C0B00D036E8 /* MasterViewController.swift */; };
 		3B6963501ADD8C0B00D036E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B69634F1ADD8C0B00D036E8 /* DetailViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		283432C81CFFDFFE005A6E3C /* .Podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .Podspec; sourceTree = "<group>"; };
 		3B6963461ADD8C0B00D036E8 /* PrayerKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B69634A1ADD8C0B00D036E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B69634B1ADD8C0B00D036E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				3B6963541ADD8C0B00D036E8 /* Images.xcassets */,
 				3B6963561ADD8C0B00D036E8 /* LaunchScreen.xib */,
 				3B6963491ADD8C0B00D036E8 /* Supporting Files */,
+				283432C81CFFDFFE005A6E3C /* .Podspec */,
 			);
 			path = PrayerKit;
 			sourceTree = "<group>";
@@ -170,6 +173,8 @@
 		3B69633E1ADD8C0A00D036E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = WNeeds;
 				TargetAttributes = {
@@ -206,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283432C91CFFDFFE005A6E3C /* .Podspec in Resources */,
 				3B6963531ADD8C0B00D036E8 /* Main.storyboard in Resources */,
 				3B6963581ADD8C0B00D036E8 /* LaunchScreen.xib in Resources */,
 				3B6963551ADD8C0B00D036E8 /* Images.xcassets in Resources */,
@@ -423,6 +429,7 @@
 				3B6963691ADD8C0B00D036E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B69636A1ADD8C0B00D036E8 /* Build configuration list for PBXNativeTarget "PrayerKitTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +438,7 @@
 				3B69636C1ADD8C0B00D036E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
