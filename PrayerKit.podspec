@@ -14,7 +14,7 @@ s.version = "0.1.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "[Seif Kobrosly]" => "[seifkobrosly@gmail.com]" }
+s.author = { "Seif Kobrosly" => "seifkobrosly@gmail.com" }
 
 # For example,
 # s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
@@ -28,7 +28,7 @@ s.author = { "[Seif Kobrosly]" => "[seifkobrosly@gmail.com]" }
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
+s.source = { :git => "git@github.com:seifscape/PrayerTimes-Swift.git", :tag => {s.version}
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
@@ -40,8 +40,8 @@ s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.versi
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "PrayerTimes-Swift/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "PrayerTimes-Swift/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
